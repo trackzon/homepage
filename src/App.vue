@@ -1,29 +1,68 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="app" class="pb-0">
+    <header class="header-global">
+      <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom bg-gradient-warning">
+        <div class="container">
+          <a class="navbar-brand mr-lg-5" href="https://trackzon.io">
+            <img src="@/assets/images/logo.png"> TRACK
+            <b>ZON</b>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+
+          <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+            <li class="nav-item">
+              <router-link class="nav-link" to="/">Features</router-link>
+            </li>
+
+            <li class="nav-item">
+              <router-link class="nav-link" to="/">Pricing</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/about">Login</router-link>
+            </li>
+          </ul>
+
+        </div>
+
+
+
+      </nav>
+
+      <main>
+        <div class="position-relative">
+          <router-view/>
+        </div>
+      </main>
+
+
+  </header>
   </div>
 </template>
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  position: relative;
+  color: #fff;
+  background-color: #fff;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+
+.color1 {
+  background-color: #ff9900;
+}
+
+.color1b {
+  background-color: #ffa033;
+}
+
+.color2 {
+  background-color: #131a22;
+}
+
+.color3 {
+  background-color: #232f3e;
 }
 </style>
