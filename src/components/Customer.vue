@@ -5,6 +5,7 @@
                     <p>
                         Designing in Photoshop became a trend. Change, save, redo. Change, save, redo. After searching thoroughly for an alternative to create something great, it was clear that there weren’t any great solutions or intentions by anyone to create a pixel-perfect template for anyone to use. We don't do pixel-perfect, we focus on client-perfect projects.<br>
                     </p>
+                    <em>The best platform for Amazon Affiliates</em>
                     <div class="logos">
                         <ul class="list-unstyled">
                             <li ><img src="@/assets/images/logos/adobe.png"/></li>
@@ -28,6 +29,7 @@
 <style scoped>
 .section {
   padding: 50px 0;
+   color: #131a22;
 }
 .section .info .icon {
   background: transparent;

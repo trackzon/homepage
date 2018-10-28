@@ -31,7 +31,7 @@
 
                   <span>with the same traffic</span>
                 </h1>
-                <p class="lead  text-white">By tracking your best links ypu can optimize your links, alerting you when a product you link is out of stock.</p>
+                <p class="lead  text-white">By tracking your key metrics we can optimize your traffic and alert you when a product get out of stock.</p>
                 <div class="btn-wrapper">
                   <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-white btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
@@ -66,6 +66,6 @@
     border-radius: 8px;
     -webkit-filter: grayscale(20%);
     filter: grayscale(20%);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 </style>
