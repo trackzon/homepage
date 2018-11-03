@@ -2,7 +2,7 @@
   <section>
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h4 class="header-text">Pricing</h4>
-      <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+      <p class="lead">Give Your Site The Tracking It Deserves, And Get Instant Profit Aith Your Webistes Health and Optimations.</p>
     </div>
 
     <div class="container">
@@ -73,10 +73,10 @@
         <div class="row">
           <div class="col-12 col-md">
             <img class="mb-2" src="" alt="" width="24" height="24">
-            <small class="d-block mb-3 text-muted">© 2017-2018</small>
+            <small class="d-block mb-3 text-muted">© 2018</small>
           </div>
           <div class="col-6 col-md">
-            <h5>Features</h5>
+            <!-- <h5>Features</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Cool stuff</a></li>
               <li><a class="text-muted" href="#">Random feature</a></li>
@@ -84,26 +84,39 @@
               <li><a class="text-muted" href="#">Stuff for developers</a></li>
               <li><a class="text-muted" href="#">Another one</a></li>
               <li><a class="text-muted" href="#">Last time</a></li>
-            </ul>
+            </ul> -->
           </div>
           <div class="col-6 col-md">
-            <h5>Resources</h5>
+            <!-- <h5>Resources</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Resource</a></li>
               <li><a class="text-muted" href="#">Resource name</a></li>
               <li><a class="text-muted" href="#">Another resource</a></li>
               <li><a class="text-muted" href="#">Final resource</a></li>
-            </ul>
+            </ul> -->
           </div>
           <div class="col-6 col-md">
-            <h5>About</h5>
+            <!-- <h5>About</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Team</a></li>
               <li><a class="text-muted" href="#">Locations</a></li>
               <li><a class="text-muted" href="#">Privacy</a></li>
               <li><a class="text-muted" href="#">Terms</a></li>
-            </ul>
+            </ul> -->
           </div>
+        </div>
+        <div class="row">
+          <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
         </div>
       </footer>
     </div>
