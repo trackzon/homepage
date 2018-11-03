@@ -22,7 +22,8 @@
               <router-link class="nav-link" to="/">Pricing</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">Login</router-link>
+              <a class="nav-link" href="javascript:netlifyIdentity.open('login')">Login</a>
+
             </li>
           </ul>
 
@@ -42,7 +43,17 @@
   </header>
   </div>
 </template>
+<script>
+  import netlifyIdentity from "netlify-identity-widget"
+  export default {
+    name: "app",
+    created() {
+      window.netlifyIdentity = netlifyIdentity;
+      netlifyIdentity.init();
+    }
 
+  }
+</script>
 <style lang="scss">
 #app {
   position: relative;
