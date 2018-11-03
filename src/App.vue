@@ -65,4 +65,8 @@
 .color3 {
   background-color: #232f3e;
 }
+
+.hidden {
+  display: none;
+}
 </style>
