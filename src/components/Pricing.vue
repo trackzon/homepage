@@ -106,7 +106,11 @@
           </div>
         </div>
         <div class="row">
-          <form name="contact" netlify>
+          <form name="contact" method="POST" netlify-honeypot="bot-field" netlify>
+
+            <p class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </p>
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>
