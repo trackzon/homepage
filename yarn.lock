@@ -8156,6 +8156,11 @@ vue@^2.2.6, vue@^2.5.17:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
   integrity sha512-mFbcWoDIJi0w0Za4emyLiW72Jae0yjANHbCVquMKijcavBGypqlF7zHRgMa5k4sesdv7hv2rB4JPdZfR+TPfhQ==
 
+vuejs-toggle-switch@^1.1.29:
+  version "1.1.29"
+  resolved "https://registry.yarnpkg.com/vuejs-toggle-switch/-/vuejs-toggle-switch-1.1.29.tgz#10c276f11fed648a1a96d8bd613894679b2920e4"
+  integrity sha512-8wxwbapCJMxF2cGkzY4o5jF9B7V+08uv++1fF48kJC9sgDHuVJb16aOlK0bLZvRCxjv7GiAMHgEheCKOhSbxCw==
+
 watchpack@^1.5.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.6.0.tgz#4bc12c2ebe8aa277a71f1d3f14d685c7b446cd00"

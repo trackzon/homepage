@@ -6,7 +6,7 @@
             <div class="col-xl-4 order-md-last">
               <h6 class="mb-4"><strong>Get Started</strong></h6>
               <p>Form so, head allowed how found at right, chosen put sad. Copy of field phase offers texts. Great family there first about that.</p>
-              <a class="btn btn-primary mr-2" href="#">Start trial</a>
+              <a class="btn btn-primary btn-warning mr-2" href="#">Start trial</a>
               <a class="btn btn-secondary" href="#">Contact</a>
             </div>
 

@@ -55,6 +55,7 @@ import pricing from '@/components/Pricing.vue'
 import numbers from '@/components/Numbers.vue'
 import hfooter from '@/components/Footer.vue'
 import AOS from 'aos'
+
 export default {
   name: 'homepage',
 

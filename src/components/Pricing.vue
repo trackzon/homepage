@@ -6,75 +6,43 @@
         <div class="container">
           <header class="section-header">
             <small>Pricing</small>
-            <h2>Choose License Type</h2>
+            <h2>Choose Your Plan</h2>
             <hr>
             <p class="lead">Give Your Site The Tracking It Deserves, And Get Instant Profit Aith Your Webistes Health and Optimations.</p>
           </header>
 
 
+<toggle-switch
+        :options="option4"
+        v-model="planDuration"
+        class="text-center"/>
+      <br>
+
           <div class="row gap-y">
 
-            <div class="col-lg-3">
-              <div class="pricing-3">
-                <h6 class="plan-name">Free</h6>
-                <h2 class="price">Free</h2>
-                <ul>
-                  <li>Single Website</li>
-                  <li>Manual Import</li>
-                  <li>No Support</li>
-                </ul>
-                <br>
-                <a class="btn btn-block btn-lg btn-outline-warning btn-round w-200" href="#">Get started</a>
-              </div>
-            </div>
 
-            <div class="col-lg-3">
+
+            <div class="col-lg-3" v-for="plan in plans" :key="plan['Title']">
               <div class="pricing-3">
-                <h6 class="plan-name">Lite</h6>
-                <h2 class="price">$19</h2>
+                <h6 class="plan-name text-warning">{{plan['Title']}}</h6>
+                <h2 class="price" >${{plan[planDuration]}}<small>.9/m</small></h2>
                 <ul>
-                  <li>5 Websites</li>
+                  <li>{{plan['SiteNb']}} Websites</li>
                   <li>Manual Import</li>
                   <li>Email support</li>
                 </ul>
                 <br>
-                <a class="btn btn-block btn-lg btn-outline-warning btn-round w-200" href="#">Get started</a>
+                <a class="btn btn-block btn-lg  btn-round w-200" :class="plan['selected'] ? 'btn-warning' : 'btn-outline-warning'" href="#">START FREE</a>
               </div>
             </div>
 
 
-            <div class="col-lg-3">
-              <div class="pricing-3">
-                <h6 class="plan-name text-primary">Pro</h6>
-                <h2 class="price">$59</h2>
-                <ul>
-                  <li>30 Websites</li>
-                  <li>Auto Import</li>
-                  <li>Email support</li>
-                </ul>
-                <br>
-                <a class="btn btn-block btn-lg btn-warning btn-round w-200" href="#">Get started</a>
-              </div>
-            </div>
 
-
-            <div class="col-lg-3">
-              <div class="pricing-3">
-                <h6 class="plan-name">Agency</h6>
-                <h2 class="price">$149</h2>
-                <ul>
-                  <li>100 Websites</li>
-                  <li>Auto Import</li>
-                  <li>Email support</li>
-                </ul>
-                <br>
-                <a class="btn btn-lg btn-block btn-outline-warning btn-round w-200" href="#">Get started</a>
-              </div>
-            </div>
 
           </div>
           <header class="section-header">
             <p class="lead">We also have a FREE plan for 1 website. if you want to start using </p>
+            <p class="lead">More than 200 sites ? Contact us to setup a special account</p>
           </header>
         </div>
       </section>
@@ -82,7 +50,60 @@
 
 <script>
   export default {
-    name: "pricing"
+    name: "pricing",
+    data () {
+      return {
+        planDuration: 'Yearly',
+        option4: {
+        layout: {
+          backgroundColor: 'white',
+          selectedBackgroundColor: '#fb6340',
+          selectedColor: 'white',
+          color: '#fb6340',
+          borderColor: '#fb6340',
+          fontFamily: 'Lucida Grande',
+          fontWeightSelected: 'normal'
+        },
+        size: {
+          width: 280,
+          height: 42,
+          padding: 3.5,
+          fontSize: 11
+        },
+        items: {
+          preSelected: 'Yearly',
+          labels: [{ name: 'Monthly' }, { name: 'Yearly' }]
+        }
+      },
+      plans: [
+        {
+          "Title": "Lite",
+          "Yearly": 19,
+          "Monthly": 24,
+          "SiteNb": 10,
+        },
+        { "Title": "Pro",
+          "Yearly": 49,
+          "Monthly": 59,
+          "SiteNb": 50,
+
+        },
+        { "Title": "Business",
+          "Yearly": 99,
+          "Monthly": 124,
+          "SiteNb": 150,
+          "selected": true
+        },
+        {
+          "Title": "Agency",
+          "Yearly": 199,
+          "Monthly": 249,
+          "SiteNb": 350,
+        },
+
+      ]
+      }
+    }
   }
 </script>
 
@@ -127,17 +148,25 @@
     -webkit-transform-origin: top left;
             transform-origin: top left; }
   .pricing-3 .price {
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-weight: 500;
     margin-top: 1rem;
     margin-bottom: 1.5rem; }
   .pricing-3 .plan-name {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 0.8325rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     opacity: .9; }
   .pricing-3 ul {
     list-style: none;
     padding-left: 0; }
+
+  .toggle-switch label {
+    font-size: 0.5rem;
+  }
+  h2 small {
+    font-size: 0.9rem;
+    color: #3c3c42;
+  }
 </style>

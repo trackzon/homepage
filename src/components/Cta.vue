@@ -9,8 +9,8 @@
         <!-- <div class="container py-lg-md d-flex"> -->
           <!-- <div class="col px-0">
             <div class="row"> -->
-              <div class="col-lg-6">
-                <h1 class="display-3  text-white">
+              <div class="col-lg-7">
+                <h1 class="display-4 fw-500 text-white">
                     <split-test>
                       <template slot="A" chance="2">
                         Get More Commission
@@ -31,7 +31,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-5">
                 <img class="screenshot" src="@/assets/images/screenshot.png" alt="Trackzon Dashboard">
               </div>
             </div>
@@ -63,5 +63,30 @@
 
 .h-100 {
     height: 100% !important;
+}
+
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white .h1, .text-white .h2, .text-white .h3, .text-white .h4, .text-white .h5, .text-white .h6 {
+    color: #fff;
+}
+.fw-500, .font-weight-500 {
+    font-weight: 500 !important;
+}
+.display-4 {
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #323d47;
+
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: .5rem;
+
+    font-weight: 400;
+    line-height: 1.5;
+    color: #323d47;
 }
 </style>

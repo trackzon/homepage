@@ -5,6 +5,8 @@ import './registerServiceWorker'
 import VueParticles from "multi-vue-particles"
 import BootstrapVue from 'bootstrap-vue'
 
+import ToggleSwitch from 'vuejs-toggle-switch'
+Vue.use(ToggleSwitch)
 
 import 'aos/dist/aos.css'
 
