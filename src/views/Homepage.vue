@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-   <header class="header text-white h-fullscreen overflow-hidden bg-gradient-warning">
+   <header class="header text-white h-fullscreen overflow-hidden bg-fixed">
        <vue-particles
         color="#ffffff"
         :particleOpacity="0.80"
@@ -140,4 +140,24 @@ export default {
 .bg-theme-gray {
     background-color: #fafbfb;
 }
+
+.home > header {
+
+    background-position: center;
+    background: url(../assets/images/bg3.jpg) center center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(87deg, #fb6340 0, #fbb140 100%) ;
+	opacity: .85;
+    }
+}
+
 </style>
