@@ -10,19 +10,7 @@
           <!-- <div class="col px-0">
             <div class="row"> -->
               <div class="col-lg-7">
-                <h1 class="display-4 fw-500 text-white">
-                    <split-test>
-                      <template slot="A" chance="2">
-                        Get More Commission
-                      </template>
-                      <template slot="B" chance="2">
-                        Increase Your Webiste Value
-                      </template>
-                    </split-test>
-
-
-                  <span>with the same traffic</span>
-                </h1>
+                <h1 class="display-4 fw-500 text-white"> Increase Your Website Value<span>with the same traffic</span></h1>
                 <p class="lead  text-white">By tracking your key metrics we can optimize your traffic and alert you when a product get out of stock.</p>
                 <div class="btn-wrapper">
                   <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-white btn-icon mb-3 mb-sm-0">
@@ -57,7 +45,7 @@
 .screenshot {
     border-radius: 8px;
     -webkit-filter: grayscale(20%);
-    filter: grayscale(20%);
+    filter: grayscale(0%);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
