@@ -13,11 +13,11 @@
 
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li class="nav-item">
-              <router-link class="nav-link" to="/">Features</router-link>
+              <a class="nav-link" href="#features">Features</a>
             </li>
 
             <li class="nav-item">
-              <router-link class="nav-link" to="/">Pricing</router-link>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="javascript:netlifyIdentity.open('login')">Login</a>
@@ -45,11 +45,7 @@
   }
 </script>
 <style lang="scss">
-#app {
 
-  color: #fff;
-  background-color: #fff;
-}
 
 .color1 {
   background-color: #ff9900;

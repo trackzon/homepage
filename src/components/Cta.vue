@@ -9,6 +9,7 @@
         <!-- <div class="container py-lg-md d-flex"> -->
           <!-- <div class="col px-0">
             <div class="row"> -->
+
               <div class="col-lg-7">
                 <h1 class="display-4 fw-500 text-white"> Increase Your Website Value<span>with the same traffic</span></h1>
                 <p class="lead  text-white">By tracking your key metrics we can optimize your traffic and alert you when a product get out of stock.</p>
@@ -22,6 +23,7 @@
               <div class="col-lg-5">
                 <img class="screenshot" src="@/assets/images/screenshot.png" alt="Trackzon Dashboard">
               </div>
+
             </div>
           <!-- </div>
         </div> -->
@@ -32,6 +34,7 @@
           </svg>
         </div> -->
       </div>
+
 
 </template>
 
@@ -49,9 +52,6 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.h-100 {
-    height: 100% !important;
-}
 
 .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white .h1, .text-white .h2, .text-white .h3, .text-white .h4, .text-white .h5, .text-white .h6 {
     color: #fff;

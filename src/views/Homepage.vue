@@ -30,8 +30,9 @@
 
     <numbers/>
     <features/>
-    <pricing/>
     <customer/>
+    <pricing/>
+
     <hfooter/>
 </div>
 
@@ -76,6 +77,11 @@ export default {
 .header.h-fullscreen {
     padding-top: 0px; // 90 ?
 }
+
+.h-100 {
+    height: 100% !important;
+}
+
 .header>.container, .header>.container-fluid {
     position: relative;
     height: 100%;

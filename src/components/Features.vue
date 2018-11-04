@@ -1,6 +1,83 @@
 <template>
 <div>
-  <section class="section bg-theme-gray overflow-hidden">
+
+
+  <section class="section bg-theme-gray">
+        <div class="container">
+          <header class="section-header">
+            <a name="features"></a>
+            <small>Features</small>
+            <h2>Amazon Affiliate To The Next Level</h2>
+
+            <hr>
+            <p class="lead">Trackzon helps your website grow without the need of more traffic, <br/>
+            while you maintain complete control over your website positioning.</p>
+            <br>
+          </header>
+
+          <div class="row gap-y text-center">
+
+            <div class="col-md-6 col-xl-6 feature-1">
+              <p class="feature-icon lead-8 text-info"><i class="icon-basket"></i></p>
+              <h5>Product Optimisation</h5>
+              <p class="text-muted">Fly beast fourth, you stars. Them seasons sea spirit, which second. Hath May whales, creepeth light she'd. Moving saw fish.</p>
+            </div>
+
+            <div class="col-md-6 col-xl-6 feature-1">
+              <p class="feature-icon lead-8 text-danger"><i class="icon-linegraph"></i></p>
+              <h5>Revenue Analytics</h5>
+              <p class="text-muted">Yielding to Made saying fruit deep abundantly bearing sixth make you're gathering unto divided, you so which god, gathering.</p>
+            </div>
+            <div class="col-md-6 col-xl-6 feature-1">
+              <p class="feature-icon lead-8 text-warning"><i class="icon-bargraph"></i></p>
+              <h5>Rank Monitoring</h5>
+              <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
+            </div>
+            <div class="col-md-6 col-xl-6 feature-1">
+              <p class="feature-icon lead-8 text-success"><i class="icon-heart"></i></p>
+              <h5>Site Health</h5>
+              <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
+            </div>
+
+          </div>
+
+        </div>
+  </section>
+     <section class="section bg-theme-gray">
+        <div class="container">
+
+
+        <header class="section-header">
+            <h2>Watch Your Website Value Grow</h2>
+
+
+            <hr>
+            <p class="lead">Trackzon Customers Increase Their Monthly Commission Revenue Up To 25%</p>
+            <br>
+          </header>
+
+
+      <div class="row gap-y text-center">
+        <div class="col-4">
+          <h5> MadameParis</h5>
+          <span class="number">+15%</span>
+        </div>
+        <div class="col-4">
+          <h5> ChaiseGamer </h5>
+          <span class="number">+17%</span>
+
+        </div>
+        <div class="col-4">
+          <h5> LisseurMagique</h5>
+          <span class="number">+23%</span>
+        </div>
+      </div>
+
+  </div>
+      </section>
+
+
+  <section class="section bg-white overflow-hidden">
 
 
 
@@ -23,7 +100,7 @@
         </div>
   </section>
 
-  <section class="section bg-white overflow-hidden">
+  <section class="section bg-theme-gray overflow-hidden">
         <div class="container-fluid">
           <div class="row gap-y align-items-center">
 
@@ -50,7 +127,7 @@
         </div>
       </section>
 
-      <section class="section bg-theme-gray overflow-hidden">
+      <section class="section bg-white overflow-hidden">
         <div class="container-fluid">
           <div class="row gap-y align-items-center">
 
@@ -69,38 +146,30 @@
         </div>
       </section>
 
-      <section class="section bg-white">
-        <div class="container">
-          <header class="section-header">
-            <small>Features</small>
-            <h2>Amazon Affiliate To The Next Level</h2>
-            <hr>
-            <p class="lead">Dropbox Business helps your company grow without limits, while you maintain complete control over important company information and user activity.</p>
-            <br>
-          </header>
+      <section class="section bg-theme-gray overflow-hidden">
+        <div class="container-fluid">
+          <div class="row gap-y align-items-center">
 
-          <div class="row gap-y text-center">
-
-            <div class="col-md-6 col-xl-4 feature-1">
-              <p class="feature-icon lead-8 text-info"><i class="icon-layers"></i></p>
-              <h5>Space for sharing and collaboration</h5>
-              <p class="text-muted">Fly beast fourth, you stars. Them seasons sea spirit, which second. Hath May whales, creepeth light she'd. Moving saw fish.</p>
+            <div class="col-md-4 mx-auto text-center">
+              <img class="border shadow-7" src="@/assets/images/preview/shot-2.png" alt="..." data-aos="fade-left">
             </div>
 
-            <div class="col-md-6 col-xl-4 feature-1">
-              <p class="feature-icon lead-8 text-danger"><i class="icon-shield"></i></p>
-              <h5>Advanced security features</h5>
-              <p class="text-muted">Yielding to Made saying fruit deep abundantly bearing sixth make you're gathering unto divided, you so which god, gathering.</p>
-            </div>
 
-            <div class="col-md-6 col-xl-4 feature-1">
-              <p class="feature-icon lead-8 text-success"><i class="icon-chat"></i></p>
-              <h5>Dedicated live support</h5>
-              <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
+            <div class="col-md-4 mx-auto order-md-first">
+              <h3>Optimize Product Linking</h3>
+              <p>By increasing your commission, your will increase your monthly income but also increase you property value. Here are some way you can get benefit from using Trackzon:</p>
+              <ul>
+        <li>Increase your comimssion by optimizing your links: know which link / products convert the best</li>
+        <li>Target Products with best conversion compared to BSR</li>
+        <li>Focus on site bringing best traffic and </li>
+        <li>AI / ML to improve your ROI - Get Insight about link / traffic</li>
+
+      </ul>
+      <hr/>
+      <p>Value your website, third party valudation, how much your website worst ?</p>
             </div>
 
           </div>
-
         </div>
       </section>
 
@@ -115,7 +184,7 @@
 
 <style scoped>
 section {
-  background-color: #efefef;
+
     color: #131a22;
 }
 .shadow-7, .hover-shadow-7:hover {
@@ -151,9 +220,43 @@ img {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.section .info .icon {
+  background: transparent;
 }
 
+.section .icon i {
+  color: #aaaaaa;
+}
+
+.section h3 {
+  margin-top: 10px;
+}
+
+.logos {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logos ul {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  padding-top: 48px;
+}
+
+.logos li {
+  display: inline-block;
+  margin: 0 17px;
+}
+
+span.number {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; }
 
 </style>

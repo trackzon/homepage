@@ -2,13 +2,14 @@
 
 
 
-      <section class="section bg-theme-gray">
-        <div class="container">
+      <section class="section bg-theme-gray h-fullscreen">
+        <div class="container align-items-center h-100vh">
           <header class="section-header">
+            <a name="pricing"></a>
             <small>Pricing</small>
             <h2>Choose Your Plan</h2>
             <hr>
-            <p class="lead">Give Your Site The Tracking It Deserves, And Get Instant Profit Aith Your Webistes Health and Optimations.</p>
+            <p class="lead">Give Your Site The Value It Deserves, <br/>And Get Instant Profit With Your Webistes Health and Optimations.</p>
           </header>
 
 
@@ -41,8 +42,8 @@
 
           </div>
           <header class="section-header">
-            <p class="lead">We also have a FREE plan for 1 website. if you want to start using </p>
-            <p class="lead">More than 200 sites ? Contact us to setup a special account</p>
+            <p class="lead">We also have a free plan for 1 website. start using it <a href="#">here</a>.</p>
+            <p class="lead">More than 250 sites ? <a href="#">Contact us</a> to setup a special account.</p>
           </header>
         </div>
       </section>
@@ -80,25 +81,25 @@
           "Title": "Lite",
           "Yearly": 19,
           "Monthly": 24,
-          "SiteNb": 10,
+          "SiteNb": 5,
         },
         { "Title": "Pro",
           "Yearly": 49,
           "Monthly": 59,
-          "SiteNb": 50,
+          "SiteNb": 20,
 
         },
         { "Title": "Business",
           "Yearly": 99,
           "Monthly": 124,
-          "SiteNb": 150,
+          "SiteNb": 50,
           "selected": true
         },
         {
           "Title": "Agency",
           "Yearly": 199,
           "Monthly": 249,
-          "SiteNb": 350,
+          "SiteNb": 250,
         },
 
       ]
