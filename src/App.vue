@@ -3,8 +3,7 @@
         <b-navbar  class="navbar navbar-expand-lg navbar-transparent navbar-light navbar-stick-dark" >
         <div class="container">
           <a class="navbar-brand mr-lg-5" href="https://trackzon.io">
-            <img src="@/assets/images/logo.png"> TRACK
-            <b>ZON</b>
+            <img src="@/assets/images/logo.png"><span>TRACK<b>ZON</b></span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -85,5 +84,13 @@
     color: #757575;
     background-color: #fff;
 }
+.navbar-brand span {
+  font-size: 1rem;
+  padding-left: 10px;
+  font-weight: 400;
+}
 
+.navbar-brand img {
+  margin-top: -5px;
+}
 </style>
