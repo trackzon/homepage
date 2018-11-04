@@ -2,21 +2,13 @@
 
 
       <!-- shape Hero -->
-      <section class="section section-lg section-shaped pb-150 bg-gradient-warning">
-        <div class="shape shape-style-1 shape-default">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="container py-lg-md d-flex">
-          <div class="col px-0">
-            <div class="row">
+      <!-- header text-white h-fullscreen overflow-hidden -->
+ <div class="container position-static">
+        <div class="row align-items-center h-100">
+
+        <!-- <div class="container py-lg-md d-flex"> -->
+          <!-- <div class="col px-0">
+            <div class="row"> -->
               <div class="col-lg-6">
                 <h1 class="display-3  text-white">
                     <split-test>
@@ -43,15 +35,15 @@
                 <img class="screenshot" src="@/assets/images/screenshot.png" alt="Trackzon Dashboard">
               </div>
             </div>
-          </div>
-        </div>
+          <!-- </div>
+        </div> -->
         <!-- SVG separator -->
-        <div class="separator separator-bottom separator-skew">
+        <!-- <div class="separator separator-bottom separator-skew">
           <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
           </svg>
-        </div>
-      </section>
+        </div> -->
+      </div>
 
 </template>
 
@@ -67,5 +59,9 @@
     -webkit-filter: grayscale(20%);
     filter: grayscale(20%);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.h-100 {
+    height: 100% !important;
 }
 </style>

@@ -1,7 +1,6 @@
 <template>
-  <div id="app" class="pb-0">
-    <header class="header-global">
-      <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom bg-gradient-warning">
+  <div id="app">
+        <b-navbar  class="navbar navbar-expand-lg navbar-transparent navbar-light navbar-stick-dark" >
         <div class="container">
           <a class="navbar-brand mr-lg-5" href="https://trackzon.io">
             <img src="@/assets/images/logo.png"> TRACK
@@ -28,19 +27,11 @@
           </ul>
 
         </div>
+        </b-navbar>
 
 
+                  <router-view/>
 
-      </nav>
-
-      <main>
-        <div class="position-relative">
-          <router-view/>
-        </div>
-      </main>
-
-
-  </header>
   </div>
 </template>
 <script>
@@ -56,7 +47,7 @@
 </script>
 <style lang="scss">
 #app {
-  position: relative;
+
   color: #fff;
   background-color: #fff;
 }
@@ -80,4 +71,9 @@
 .hidden {
   display: none;
 }
+
+.navbar-transparent {
+  position: absolute;
+}
+
 </style>
