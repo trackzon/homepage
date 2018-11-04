@@ -1,5 +1,5 @@
 <template>
-<section class="section">
+<section class="section bg-white">
   <div class="container text-center">
     <h4 class="header-text"><em>&ldquo;Simply The Best Platform for Amazon Affiliates&rdquo;</em></h4>
     <p>This is the first feedback from the majority of Trackzon customers, the platofrm brings so much value to affliates, there is no reason to not using it. No other tool can provide you with the value Trackzon does.<br>

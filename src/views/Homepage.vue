@@ -26,11 +26,13 @@
            <cta/>
 </header>
 
-  <div class="main-content">
-    <customer/>
+  <div class="main-content bg-white">
+
     <numbers/>
     <features/>
     <pricing/>
+    <customer/>
+    <hfooter/>
 </div>
 
 
@@ -51,6 +53,7 @@ import customer from '@/components/Customer.vue'
 import features from '@/components/Features.vue'
 import pricing from '@/components/Pricing.vue'
 import numbers from '@/components/Numbers.vue'
+import hfooter from '@/components/Footer.vue'
 import AOS from 'aos'
 export default {
   name: 'homepage',
@@ -63,7 +66,7 @@ export default {
     AOS.init(options)
   },
   components: {
-    qa, cta, customer, features, pricing, numbers
+    qa, cta, customer, features, pricing, numbers, hfooter
   }
 }
 </script>
@@ -131,4 +134,9 @@ export default {
   @media (max-width: 991.98px) {
     .section-header {
       max-width: 90%; } }
+
+
+.bg-theme-gray {
+    background-color: #fafbfb;
+}
 </style>

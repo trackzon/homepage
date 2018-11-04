@@ -76,4 +76,14 @@
   position: absolute;
 }
 
+#app {
+
+    font-family: "Open Sans",sans-serif;
+    font-size: .9375rem;
+    font-weight: 300;
+    line-height: 1.9;
+    color: #757575;
+    background-color: #fff;
+}
+
 </style>
