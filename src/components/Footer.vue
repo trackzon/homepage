@@ -35,7 +35,7 @@
             <div class="col-xl-4 order-md-first">
               <h6 class="mb-4"><strong>We Are Awesome</strong></h6>
               <p>We’re a team of experienced affliates and developers. We can combine beautiful, modern designs with clean, functional and high-performance code to produce stunning websites.</p>
-              <small class="opacity-70">© 2018 Trackon.io. All rights reserved.</small>
+              <small class="opacity-70">© 2018 Trackzon.io. All rights reserved.</small>
             </div>
 
           </div>
@@ -56,7 +56,7 @@
 
     -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.05);
     box-shadow: 0 0 15px rgba(0,0,0,0.05);
-  color: #32325d;
+  color: #3c3c42;
   background-color: #fefefe;
 
 }
