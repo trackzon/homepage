@@ -13,6 +13,8 @@
               <div class="col-lg-7">
                 <h1 class="display-4 fw-500 text-white"> Increase Your Website Value<span>with the same traffic</span></h1>
                 <p class="lead  text-white">By tracking your key metrics we can optimize your traffic and alert you when a product get out of stock.</p>
+
+                <p>Evaluate your website, third party valudation, how much your website worst ?</p>
                 <div class="btn-wrapper">
                   <a href="#" v-b-modal.modal-center class="btn btn-white btn-icon mb-3 mb-sm-0">
                     Start Free
@@ -34,6 +36,7 @@
             <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
           </svg>
         </div> -->
+
       </div>
 
 

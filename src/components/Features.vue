@@ -19,8 +19,8 @@
 
             <div class="col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-info"><i class="icon-basket"></i></p>
-              <h5>Product Optimisation</h5>
-              <p class="text-muted">Fly beast fourth, you stars. Them seasons sea spirit, which second. Hath May whales, creepeth light she'd. Moving saw fish.</p>
+              <h5>Sales Optimisation</h5>
+              <p class="text-muted">By increasing your commission, your will increase your monthly income but also increase you property value. Here are some way you can get benefit from using Trackzon.</p>
             </div>
 
             <div class="col-md-6 col-xl-6 feature-1">
@@ -34,8 +34,8 @@
               <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
             </div>
             <div class="col-md-6 col-xl-6 feature-1">
-              <p class="feature-icon lead-8 text-success"><i class="icon-heart"></i></p>
-              <h5>Site Health</h5>
+              <p class="feature-icon lead-8 text-success"><i class="icon-focus"></i></p>
+              <h5>Site Scanner</h5>
               <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
             </div>
 
@@ -87,17 +87,15 @@
 
 
             <div class="col-md-4 mx-auto order-md-first">
-              <h3>Product Optimisation</h3>
-              <p>By increasing your commission, your will increase your monthly income but also increase you property value. Here are some way you can get benefit from using Trackzon:</p>
-              <ul>
-        <li>Increase your comimssion by optimizing your links: know which link / products convert the best</li>
-        <li>Target Products with best conversion compared to BSR</li>
-        <li>Focus on site bringing best traffic and </li>
-        <li>AI / ML to improve your ROI - Get Insight about link / traffic</li>
+              <h3>Sales Optimisation</h3>
 
-      </ul>
-      <hr/>
-      <p>Value your website, third party valudation, how much your website worst ?</p>
+
+        <p>Increase your comimssion by optimizing your listing. Know which link and products convert the best and target products with better conversion / commission ratio.</p>
+
+        <!-- <li>AI / ML to improve your ROI - Get Insight about link / traffic</li> -->
+
+
+
             </div>
 
           </div>
@@ -117,8 +115,8 @@
 
             <div class="col-md-4 mx-auto">
               <h3>Revenue Analytics</h3>
-              <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
-              <a href="#">Read More <i class="ti-angle-right fs-10 ml-1"></i></a>
+              <p>Gain deeper insight about where your income comes from, which link get the more clicks, which site bring you more revenue and follow evaluation of your properties.</p>
+
             </div>
 
           </div>
@@ -140,8 +138,7 @@
 
             <div class="col-md-4 mx-auto order-md-first">
               <h3>Rank Monitoring</h3>
-              <p><i>Anonymous</i> tracking : we provide you with an automatic (no setup required more than a WP plugin) to track your visis and clicks. We dont track or sell your information so you be sure about no more data collected, better network anynomisation and protection against network detection algo</p>
-              <p>Analyse your SERP and SEMRUSH and compare your traffic value</p>
+              <p>Track your traffic <i>anonymously</i>, with our automatic clicks and visit analytics giving you better network anonymisation and protection against network detection algos. Get analysis of your SERP and site valuation based on your traffic.</p>
             </div>
 
           </div>
@@ -158,9 +155,8 @@
 
 
             <div class="col-md-4 mx-auto">
-              <h3>Site Check</h3>
-              <p><i>Anonymous</i> tracking : we provide you with an automatic (no setup required more than a WP plugin) to track your visis and clicks. We dont track or sell your information so you be sure about no more data collected, better network anynomisation and protection against network detection algo</p>
-              <p>Analyse your SERP and SEMRUSH and compare your traffic value</p>
+              <h3>Site Checking</h3>
+              <p>Monitor uptime of your sites and get notified if your site or some links are not reachable by your visitors. Keep control of performances and evaluate the impact on your revenue.</p>
             </div>
 
           </div>

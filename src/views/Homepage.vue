@@ -4,14 +4,14 @@
 
 
   <!-- Modal Component -->
-  <b-modal id="modal-center" centered title="Bootstrap-Vue" hide-footer="true" hide-header="true">
+  <b-modal id="modal-center" centered title="Register to Private Beta" hide-footer="true" hide-header="true">
     <p class="my-3">Trackzon is currently in private beta and while we do onboard new user on daily basis, we need to ask for waiting list:</p>
     <form action="">
         <b-form-group
             id="emailGroup"
             label="Enter your main email"
         >
-            <b-form-input id="mail" :state="state" v-model.trim="email"></b-form-input>
+            <b-form-input id="mail" :state="state" type="email" v-model.trim="email"></b-form-input>
 
         </b-form-group>
 
@@ -28,6 +28,7 @@
     </form>
 
   </b-modal>
+
 
    <header class="header text-white h-fullscreen overflow-hidden bg-fixed">
        <!-- <vue-particles
@@ -65,9 +66,13 @@
     <hfooter/>
 </div>
 
+<StickyCta></StickyCta>
 
   </div>
+
+
 </template>
+
 
 <script>
 
@@ -84,6 +89,7 @@ import features from '@/components/Features.vue'
 import pricing from '@/components/Pricing.vue'
 import numbers from '@/components/Numbers.vue'
 import hfooter from '@/components/Footer.vue'
+import StickyCta from '@/components/StickyCta.vue'
 import AOS from 'aos'
 
 export default {
@@ -97,7 +103,7 @@ export default {
     AOS.init(options)
   },
   components: {
-    qa, cta, customer, features, pricing, numbers, hfooter
+    qa, cta, customer, features, pricing, numbers, hfooter, StickyCta
   }
 }
 </script>
@@ -199,5 +205,7 @@ export default {
 .modal-dialog  {
     color: #212529;
 }
+
+
 
 </style>

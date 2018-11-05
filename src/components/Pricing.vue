@@ -2,8 +2,8 @@
 
 
 
-      <section class="section bg-theme-gray h-fullscreen">
-        <div class="container align-items-center h-100vh">
+      <section class="section bg-theme-gray ">
+        <div class="container align-items-center ">
           <header class="section-header">
             <a name="pricing"></a>
             <small>Pricing</small>
@@ -42,8 +42,8 @@
 
           </div>
           <header class="section-header">
-            <p class="lead">We also have a free plan for 1 website. start using it <a href="#">here</a>.</p>
-            <p class="lead">More than 250 sites ? <a href="#">Contact us</a> to setup a special account.</p>
+            <p class="lead">We also have a Lite plan for up to 3 websites. start using it <a href="#">here</a>.</p>
+            <p class="lead">More than 100 sites network ? <a href="#">Contact us</a> to setup a special account.</p>
           </header>
         </div>
       </section>
@@ -77,32 +77,42 @@
         }
       },
       plans: [
-        {
-          "Title": "Lite",
-          "Yearly": 19,
-          "Monthly": 24,
-          "SiteNb": 5,
-        },
-        { "Title": "Pro",
+        // {
+        //   "Title": "Lite",
+        //   "Yearly": 19,
+        //   "Monthly": 24,
+        //   "SiteNb": 3,
+        // },
+        { "Title": "Starter",
           "Yearly": 49,
           "Monthly": 59,
-          "SiteNb": 20,
+          "SiteNb": 10,
 
         },
-        { "Title": "Business",
+        { "Title": "Pro",
           "Yearly": 99,
           "Monthly": 124,
-          "SiteNb": 50,
+          "SiteNb": 25,
           "selected": true
+        },
+        { "Title": "Business",
+          "Yearly": 149,
+          "Monthly": 187,
+          "SiteNb": 50,
         },
         {
           "Title": "Agency",
           "Yearly": 199,
           "Monthly": 249,
-          "SiteNb": 250,
+          "SiteNb": 100,
         },
 
       ]
+      }
+    },
+    computed: {
+      maxPlan: function() {
+        return this.plans['Agency']['SiteNb']
       }
     }
   }
