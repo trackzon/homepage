@@ -9,7 +9,7 @@
             <small>Pricing</small>
             <h2>Choose Your Plan</h2>
             <hr>
-            <p class="lead">Give Your Site The Value It Deserves, <br/>And Get Instant Profit With Your Webistes Health and Optimations.</p>
+            <p class="lead">Give Your Site The Value It Deserves, <br/>And Get Instant Profit With Your Webistes Optimisations and Health Check.</p>
           </header>
 
 

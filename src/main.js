@@ -4,7 +4,7 @@ import router from './router'
 import './registerServiceWorker'
 import VueParticles from "multi-vue-particles"
 import BootstrapVue from 'bootstrap-vue'
-
+import Pace from 'pace'
 import ToggleSwitch from 'vuejs-toggle-switch'
 Vue.use(ToggleSwitch)
 
@@ -25,5 +25,11 @@ import '@/assets/css/custom.css';
 import 'et-line'
 new Vue({
   router,
-  render: h => h(App)
+  render: h => h(App),
+  mounted() {
+    Pace.start()
+    Pace.on('hide', () => {
+      document.dispatchEvent(new Event('app.rendered'));
+    })
+  }
 }).$mount('#app')

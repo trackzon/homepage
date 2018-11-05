@@ -14,9 +14,10 @@
                 <h1 class="display-4 fw-500 text-white"> Increase Your Website Value<span>with the same traffic</span></h1>
                 <p class="lead  text-white">By tracking your key metrics we can optimize your traffic and alert you when a product get out of stock.</p>
                 <div class="btn-wrapper">
-                  <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-white btn-icon mb-3 mb-sm-0">
-                    <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
-                    <span class="btn-inner--text">Get Started</span>
+                  <a href="#" v-b-modal.modal-center class="btn btn-white btn-icon mb-3 mb-sm-0">
+                    Start Free
+
+
                   </a>
                 </div>
               </div>

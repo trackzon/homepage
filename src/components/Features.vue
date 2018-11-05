@@ -11,7 +11,7 @@
 
             <hr>
             <p class="lead">Trackzon helps your website grow without the need of more traffic, <br/>
-            while you maintain complete control over your website positioning.</p>
+            while you gain complete insight into your website positioning and health.</p>
             <br>
           </header>
 
@@ -43,7 +43,7 @@
 
         </div>
   </section>
-     <section class="section bg-theme-gray">
+     <section class="section bg-whites">
         <div class="container">
 
 
@@ -77,29 +77,6 @@
       </section>
 
 
-  <section class="section bg-white overflow-hidden">
-
-
-
-
-        <div class="container-fluid">
-          <div class="row gap-y align-items-center">
-
-            <div class="col-md-4 mx-auto text-center">
-              <img class="border shadow-7" src="@/assets/images/preview/shot-3.png" alt="..." data-aos="fade-right">
-            </div>
-
-
-            <div class="col-md-4 mx-auto">
-              <h3>Increase your property value</h3>
-              <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
-              <a href="#">Read More <i class="ti-angle-right fs-10 ml-1"></i></a>
-            </div>
-
-          </div>
-        </div>
-  </section>
-
   <section class="section bg-theme-gray overflow-hidden">
         <div class="container-fluid">
           <div class="row gap-y align-items-center">
@@ -110,7 +87,7 @@
 
 
             <div class="col-md-4 mx-auto order-md-first">
-              <h3>Optimize Product Linking</h3>
+              <h3>Product Optimisation</h3>
               <p>By increasing your commission, your will increase your monthly income but also increase you property value. Here are some way you can get benefit from using Trackzon:</p>
               <ul>
         <li>Increase your comimssion by optimizing your links: know which link / products convert the best</li>
@@ -127,24 +104,30 @@
         </div>
       </section>
 
-      <section class="section bg-white overflow-hidden">
+
+  <section class="section bg-white overflow-hidden">
+
         <div class="container-fluid">
           <div class="row gap-y align-items-center">
 
             <div class="col-md-4 mx-auto text-center">
-              <img class="border shadow-7" src="@/assets/images/preview/shot-4.png" alt="..." data-aos="fade-right">
+              <img class="border shadow-7" src="@/assets/images/preview/shot-3.png" alt="..." data-aos="fade-right">
             </div>
 
 
             <div class="col-md-4 mx-auto">
-              <h3>Ranking Observer</h3>
-              <p><i>Anonymous</i> tracking : we provide you with an automatic (no setup required more than a WP plugin) to track your visis and clicks. We dont track or sell your information so you be sure about no more data collected, better network anynomisation and protection against network detection algo</p>
-              <p>Analyse your SERP and SEMRUSH and compare your traffic value</p>
+              <h3>Revenue Analytics</h3>
+              <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+              <a href="#">Read More <i class="ti-angle-right fs-10 ml-1"></i></a>
             </div>
 
           </div>
         </div>
-      </section>
+  </section>
+
+
+
+
 
       <section class="section bg-theme-gray overflow-hidden">
         <div class="container-fluid">
@@ -156,23 +139,59 @@
 
 
             <div class="col-md-4 mx-auto order-md-first">
-              <h3>Optimize Product Linking</h3>
-              <p>By increasing your commission, your will increase your monthly income but also increase you property value. Here are some way you can get benefit from using Trackzon:</p>
-              <ul>
-        <li>Increase your comimssion by optimizing your links: know which link / products convert the best</li>
-        <li>Target Products with best conversion compared to BSR</li>
-        <li>Focus on site bringing best traffic and </li>
-        <li>AI / ML to improve your ROI - Get Insight about link / traffic</li>
-
-      </ul>
-      <hr/>
-      <p>Value your website, third party valudation, how much your website worst ?</p>
+              <h3>Rank Monitoring</h3>
+              <p><i>Anonymous</i> tracking : we provide you with an automatic (no setup required more than a WP plugin) to track your visis and clicks. We dont track or sell your information so you be sure about no more data collected, better network anynomisation and protection against network detection algo</p>
+              <p>Analyse your SERP and SEMRUSH and compare your traffic value</p>
             </div>
 
           </div>
         </div>
       </section>
 
+ <section class="section bg-white overflow-hidden">
+        <div class="container-fluid">
+          <div class="row gap-y align-items-center">
+
+            <div class="col-md-4 mx-auto text-center">
+              <img class="border shadow-7" src="@/assets/images/preview/shot-4.png" alt="..." data-aos="fade-right">
+            </div>
+
+
+            <div class="col-md-4 mx-auto">
+              <h3>Site Check</h3>
+              <p><i>Anonymous</i> tracking : we provide you with an automatic (no setup required more than a WP plugin) to track your visis and clicks. We dont track or sell your information so you be sure about no more data collected, better network anynomisation and protection against network detection algo</p>
+              <p>Analyse your SERP and SEMRUSH and compare your traffic value</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="section bg-white">
+  <div class="container text-center">
+    <header class="section-header">
+            <h2><em>&ldquo;Simply The Best Platform for Amazon Affiliates&rdquo;</em></h2>
+            <hr>
+            <p class="lead">This is the first feedback from the majority of Trackzon customers, it brings so much value to affliates, there is no reason to not using it. </p>
+            <br>
+          </header>
+
+
+      <div class="row">
+
+        <div class="logos">
+          <ul class="list-unstyled">
+            <li><img src="@/assets/images/logos/adobe.png"/></li>
+            <li><img src="@/assets/images/logos/zendesk.png"/></li>
+            <li><img src="@/assets/images/logos/ebay.png"/></li>
+            <li><img src="@/assets/images/logos/evernote.png"/></li>
+            <li><img src="@/assets/images/logos/airbnb.png"/></li>
+            <li><img src="@/assets/images/logos/zappos.png"/></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+
+</section>
   </div>
 </template>
 

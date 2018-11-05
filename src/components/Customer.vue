@@ -4,7 +4,7 @@
     <header class="section-header">
             <h2><em>&ldquo;Simply The Best Platform for Amazon Affiliates&rdquo;</em></h2>
             <hr>
-            <p class="lead">This is the first feedback from the majority of Trackzon customers, the platofrm brings so much value to affliates, there is no reason to not using it. No other tool can provide you with the value Trackzon does.</p>
+            <p class="lead">This is the first feedback from the majority of Trackzon customers, it brings so much value to affliates, there is no reason to not using it. </p>
             <br>
           </header>
 

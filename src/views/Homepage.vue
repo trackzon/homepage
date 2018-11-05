@@ -1,7 +1,36 @@
 <template>
   <div class="home">
+
+
+
+  <!-- Modal Component -->
+  <b-modal id="modal-center" centered title="Bootstrap-Vue" hide-footer="true" hide-header="true">
+    <p class="my-3">Trackzon is currently in private beta and while we do onboard new user on daily basis, we need to ask for waiting list:</p>
+    <form action="">
+        <b-form-group
+            id="emailGroup"
+            label="Enter your main email"
+        >
+            <b-form-input id="mail" :state="state" v-model.trim="email"></b-form-input>
+
+        </b-form-group>
+
+        <b-form-group
+            id="siteGroup"
+            label="How many websites would you like to increase value ?"
+        >
+        <b-form-input id="siteNb" :state="state" v-model.trim="siteNb" type="number"></b-form-input>
+
+        </b-form-group>
+        <div class="form-group text-center">
+            <button type="submit" class="mx-auto btn btn-warning ">GET A SEAT</button>
+        </div>
+    </form>
+
+  </b-modal>
+
    <header class="header text-white h-fullscreen overflow-hidden bg-fixed">
-       <vue-particles
+       <!-- <vue-particles
         color="#ffffff"
         :particleOpacity="0.80"
         linesColor="#FFFFFF"
@@ -19,7 +48,7 @@
         clickMode="repulse"
         style="width: 100%; height: 100%;"
       >
-      </vue-particles>
+      </vue-particles> -->
 
 
 
@@ -28,9 +57,9 @@
 
   <div class="main-content bg-white">
 
-    <numbers/>
+
     <features/>
-    <customer/>
+
     <pricing/>
 
     <hfooter/>
@@ -165,6 +194,10 @@ export default {
 	background-image: linear-gradient(87deg, #fb6340 0, #fbb140 100%) ;
 	opacity: .95;
     }
+}
+
+.modal-dialog  {
+    color: #212529;
 }
 
 </style>
