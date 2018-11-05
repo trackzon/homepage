@@ -3,31 +3,7 @@
 
 
 
-  <!-- Modal Component -->
-  <b-modal id="modal-center" centered title="Register to Private Beta" hide-footer="true" hide-header="true">
-    <p class="my-3">Trackzon is currently in private beta and while we do onboard new user on daily basis, we need to ask for waiting list:</p>
-    <form action="">
-        <b-form-group
-            id="emailGroup"
-            label="Enter your main email"
-        >
-            <b-form-input id="mail" :state="state" type="email" v-model.trim="email"></b-form-input>
 
-        </b-form-group>
-
-        <b-form-group
-            id="siteGroup"
-            label="How many websites would you like to increase value ?"
-        >
-        <b-form-input id="siteNb" :state="state" v-model.trim="siteNb" type="number"></b-form-input>
-
-        </b-form-group>
-        <div class="form-group text-center">
-            <button type="submit" class="mx-auto btn btn-warning ">GET A SEAT</button>
-        </div>
-    </form>
-
-  </b-modal>
 
 
    <header class="header text-white h-fullscreen overflow-hidden bg-fixed">
@@ -64,6 +40,31 @@
     <pricing/>
     <customer/>
     <hfooter/>
+      <!-- Modal Component -->
+  <b-modal id="modal-center" centered title="Register to Private Beta" hide-footer="true" hide-header="true">
+    <p class="my-3">Trackzon is currently in private beta and while we do onboard new user on daily basis, we need to ask for waiting list:</p>
+    <form action="">
+        <b-form-group
+            id="emailGroup"
+            label="Enter your main email"
+        >
+            <b-form-input id="mail" :state="state" type="email" v-model.trim="email"></b-form-input>
+
+        </b-form-group>
+
+        <b-form-group
+            id="siteGroup"
+            label="How many websites would you like to increase value ?"
+        >
+        <b-form-input id="siteNb" :state="state" v-model.trim="siteNb" type="number"></b-form-input>
+
+        </b-form-group>
+        <div class="form-group text-center">
+            <button type="submit" class="mx-auto btn btn-warning ">GET A SEAT</button>
+        </div>
+    </form>
+
+  </b-modal>
 </div>
 
 <StickyCta></StickyCta>

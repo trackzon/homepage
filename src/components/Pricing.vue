@@ -33,7 +33,7 @@
                   <li>Email support</li>
                 </ul>
                 <br>
-                <a class="btn btn-block btn-lg  btn-round w-200" :class="plan['selected'] ? 'btn-warning' : 'btn-outline-warning'" href="#">START FREE</a>
+                <a class="btn btn-block btn-lg  btn-round w-200" :class="plan['selected'] ? 'btn-warning' : 'btn-outline-warning'" href="#" v-b-modal.modal-center>START FREE</a>
               </div>
             </div>
 

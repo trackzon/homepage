@@ -11,10 +11,10 @@
             <div class="row"> -->
 
               <div class="col-lg-7">
-                <h1 class="display-4 fw-500 text-white"> Increase Your Website Value<span>with the same traffic</span></h1>
-                <p class="lead  text-white">By tracking your key metrics we can optimize your traffic and alert you when a product get out of stock.</p>
+                <h1 class="display-4 fw-500 text-white">Increase Your Website Value<span>and propel your ROI</span></h1>
+                <p class="lead  text-white">Gain insight about your key traffic and revenues. Track and monitor defects to increase your conversion. Optimize your EPC and commissions.</p>
 
-                <p>Evaluate your website, third party valudation, how much your website worst ?</p>
+
                 <div class="btn-wrapper">
                   <a href="#" v-b-modal.modal-center class="btn btn-white btn-icon mb-3 mb-sm-0">
                     Start Free
