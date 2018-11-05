@@ -62,7 +62,7 @@
     <features/>
 
     <pricing/>
-
+    <customer/>
     <hfooter/>
 </div>
 

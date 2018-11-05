@@ -7,9 +7,9 @@
           <header class="section-header">
             <a name="pricing"></a>
             <small>Pricing</small>
-            <h2>Choose Your Plan</h2>
+            <h2>Give Your Sites The Value The Deserve</h2>
             <hr>
-            <p class="lead">Give Your Site The Value It Deserves, <br/>And Get Instant Profit With Your Webistes Optimisations and Health Check.</p>
+            <p class="lead">Choose Your Plan, <br/>And Get Instant Profit With Your Websites Optimisations and Health Check.</p>
           </header>
 
 
