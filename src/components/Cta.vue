@@ -10,12 +10,12 @@
           <!-- <div class="col px-0">
             <div class="row"> -->
 
-              <div class="col-lg-7">
+              <div class="col-lg-7 pr-20">
                 <h1 class="display-4 fw-500 text-white">Increase Your Website Value<span>and propel your ROI</span></h1>
-                <p class="lead  text-white">Gain insight about your key traffic and revenues. Track and monitor defects to increase your conversion. Optimize your EPC and commissions.</p>
+                <p class="lead  text-white">Gain insight about your key traffic and revenues. Track and monitor defects to increase your conversion, optimize your EPC.</p>
 
 
-                <div class="btn-wrapper">
+                <div class="btn-wrapper text-left">
                   <a href="#" v-b-modal.modal-center class="btn btn-white btn-icon mb-3 mb-sm-0">
                     Start Free
 
@@ -24,7 +24,7 @@
                 </div>
               </div>
               <div class="col-lg-5">
-                <img class="screenshot" src="@/assets/images/screenshot.png" alt="Trackzon Dashboard">
+                <img class="screenshot" src="@/assets/images/preview/dashboard-cta.png" alt="Trackzon Dashboard">
               </div>
 
             </div>
@@ -51,9 +51,9 @@
 <style scoped>
 .screenshot {
     border-radius: 8px;
-    -webkit-filter: grayscale(20%);
-    filter: grayscale(0%);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    margin-left: 50px;
 }
 
 
@@ -67,6 +67,10 @@
     font-size: 3rem;
     font-weight: 200;
     line-height: 1.5;
+}
+
+.display-4 span {
+  font-size: 2.5rem;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

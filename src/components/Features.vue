@@ -82,7 +82,7 @@
           <div class="row gap-y align-items-center">
 
             <div class="col-md-4 mx-auto text-center">
-              <img class="border shadow-7" src="@/assets/images/preview/shot-2.png" alt="..." data-aos="fade-left">
+              <img class="border shadow-7" src="@/assets/images/preview/dashboard.png" alt="..." data-aos="fade-left">
             </div>
 
 
@@ -109,7 +109,7 @@
           <div class="row gap-y align-items-center">
 
             <div class="col-md-4 mx-auto text-center">
-              <img class="border shadow-7" src="@/assets/images/preview/shot-3.png" alt="..." data-aos="fade-right">
+              <img class="border shadow-7" src="@/assets/images/preview/dashboard.png" alt="..." data-aos="fade-right">
             </div>
 
 
@@ -132,7 +132,7 @@
           <div class="row gap-y align-items-center">
 
             <div class="col-md-4 mx-auto text-center">
-              <img class="border shadow-7" src="@/assets/images/preview/shot-2.png" alt="..." data-aos="fade-left">
+              <img class="border shadow-7" src="@/assets/images/preview/dashboard.png" alt="..." data-aos="fade-left">
             </div>
 
 
@@ -150,7 +150,7 @@
           <div class="row gap-y align-items-center">
 
             <div class="col-md-4 mx-auto text-center">
-              <img class="border shadow-7" src="@/assets/images/preview/shot-4.png" alt="..." data-aos="fade-right">
+              <img class="border shadow-7" src="@/assets/images/preview/dashboard.png" alt="..." data-aos="fade-right">
             </div>
 
 
