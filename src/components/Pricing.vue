@@ -23,7 +23,7 @@
 
 
 
-            <div class="col-lg-3" v-for="plan in plans" :key="plan['Title']">
+            <div class="col-12 col-lg-3" v-for="plan in plans" :key="plan['Title']">
               <div class="pricing-3">
                 <h6 class="plan-name text-warning">{{plan['Title']}}</h6>
                 <h2 class="price" >${{plan[planDuration]}}<small>.9/m</small></h2>
@@ -132,6 +132,7 @@
   }
   .pricing-3 {
   text-align: center;
+  margin-bottom: 20px;
       border-top: 2px solid #ffa033;
     background-color: #ffffff;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
