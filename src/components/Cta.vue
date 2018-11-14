@@ -15,7 +15,7 @@
                 <p class="lead  text-white">Gain insight about your key traffic and revenues. Track and monitor defects to increase your conversion, optimize your EPC.</p>
 
 
-                <div class="btn-wrapper text-left">
+                <div class="btn-wrapper text-center">
                   <a href="#" v-b-modal.modal-center class="btn btn-white btn-icon mb-3 mb-sm-0">
                     Start Free
 
