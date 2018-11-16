@@ -1,5 +1,5 @@
 <template>
-  <div id="app" data-server-rendered="true" >
+  <div id="app" >
     <header class="header-global">
         <b-navbar id="navbar-main" class="navbar navbar-expand-lg navbar-transparent navbar-light navbar-stick-dark" >
         <div class="container">
