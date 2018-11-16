@@ -15,7 +15,11 @@ module.exports = {
             // options
           }
         ),
-      ]
-    }
+      ],
+      env: {
+        functions: config.env === 'production' ? `${config.url}/.netlify/functions` : 'http://localhost:8080',
+      }
+    },
+
   }
 }
