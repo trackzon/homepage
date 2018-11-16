@@ -11,30 +11,30 @@
             <div class="row"> -->
 
               <div class="col-lg-9 pr-20 offset-1">
-<form
+ <b-form
+    @submit.prevent="handleSubmit"
     name="audit"
     method="post"
     data-netlify="true"
     data-netlify-honeypot="bot-field">
               <div id="step1" v-show="step=='step1'">
 
-                 <h1 class="display-4 fw-500 text-white">Get A Free Audit Of Your Amazon Affiliate Website<span>and a get a list of improvment that can get you up to 15% commission gain</span></h1>
+                 <h1 class="display-4 fw-500 text-white">Get A Free Audit Of Your Amazon Affiliate Website<span>and a receive a list of improvment that can get you up to 15% commission gain</span></h1>
 
 
+                <div class="row">
+                  <div class="col">
+                        <b-form-input id="website" name="site" class="mb-2 mr-sm-2 mb-sm-0" @focus="flag=true"
+  @blur="flag=false" :state="state" type="url" v-model.trim="form.site" placeholder="Enter your amazon affiliat ewebsite link..." ></b-form-input>
+                  </div>
 
-                        <b-form-group
-                        id="emailGroup"
-
-                    >
-                        <b-form-input id="mail" :state="state" type="email" v-model.trim="site" placeholder="Enter your amazon affiliat ewebsite link..."></b-form-input>
-
-                    </b-form-group>
-             <div class="btn-wrapper text-right">
+                  <div class="col">
                   <a href="#" v-b-modal.modal-center-disabled class="btn btn-primary btn-icon mb-3 mb-sm-0" @click="step='step2'">
                     Get Your Free Audit
 
 
                   </a>
+                  </div>
                 </div>
               </div>
 
@@ -43,20 +43,22 @@
 
                  <h3 class="display-5 fw-500 text-white"><span>Congratulations ! your website has been submitted and will ne personally reviewd shortly. As soon as it has been reviewed we will sent you a personalized report, please let us know to which email we can send it:</span></h3>
 
-                        <b-form-group
-                        id="emailGroup"
+                  <div class="row">
 
-                    >
-                        <b-form-input id="mail" :state="state" type="email" v-model.trim="email" placeholder="Enter your email to receive the report..."></b-form-input>
+                    <div class="col">
+                        <b-input id="mail"  :state="state" type="email" v-model.trim="form.email" placeholder="Enter your email to receive the report..."></b-input>
+                  </div>
+                  <div class="col">
 
-                    </b-form-group>
-             <div class="btn-wrapper text-right">
-                  <a href="#" v-b-modal.modal-center.disabled class="btn btn-primary btn-icon mb-3 mb-sm-0" @click="step='step3'">
+                  <a href="#" v-b-modal.modal-center-disabled class="btn btn-primary btn-icon mb-3 mb-sm-0" @click.prevent="handleSubmit" >
                     Get Your Personalized Report
 
 
                   </a>
-                </div>
+                  </div>
+                  </div>
+
+
               </div>
 </transition>
 
@@ -72,7 +74,7 @@
                 </div>
               </div>
 
-</form>
+</b-form>
 
               </div>
 
@@ -96,10 +98,34 @@
     name: "cta_audit",
     data () {
       return {
-        site: "",
+        form: {
+          site: "",
+          email: "",
+
+        },
         step: "step1"
       }
+    },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join('&');
+    },
+    handleSubmit () {
+      fetch('/', {
+        method: 'POST',
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: this.encode({
+          'form-name': 'audit',
+          ...this.form
+        })
+      })
+      this.step='step3'
     }
+  }
   }
 </script>
 
