@@ -38,7 +38,7 @@
                 </div>
               </div>
 
-<transition name="fade" mode="out-in">
+<transition name="fade" mode="in-out">
                             <div id="step2" v-show="step=='step2'">
 
                  <h3 class="display-5 fw-500 text-white"><span>Congratulations ! your website has been submitted and will ne personally reviewd shortly. As soon as it has been reviewed we will sent you a personalized report, please let us know to which email we can send it:</span></h3>
@@ -61,6 +61,7 @@
 
               </div>
 </transition>
+<transition name="fade" mode="in-out">
 
                             <div id="step3" v-show="step=='step3'">
 
@@ -73,7 +74,7 @@
                   </a>
                 </div>
               </div>
-
+</transition>
 </b-form>
 
               </div>
