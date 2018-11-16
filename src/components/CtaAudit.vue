@@ -45,7 +45,7 @@
                   <div class="row">
 
                     <div class="col">
-                        <b-input id="mail"  :state="state" type="email" v-model.trim="form.email" placeholder="Enter your email to receive the report..."></b-input>
+                        <b-input id="mail"  :state="state" name="email" type="email" v-model.trim="form.email" placeholder="Enter your email to receive the report..."></b-input>
                   </div>
                   <div class="col">
 
