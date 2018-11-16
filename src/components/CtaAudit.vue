@@ -12,7 +12,6 @@
 
               <div class="col-lg-9 pr-20 offset-1">
  <b-form
-    @submit.prevent="handleSubmit"
     name="audit"
     method="post"
     data-netlify="true"

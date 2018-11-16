@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import './registerServiceWorker'
+// import './registerServiceWorker'
 import VueParticles from "multi-vue-particles"
 import BootstrapVue from 'bootstrap-vue'
 import Pace from 'pace'
