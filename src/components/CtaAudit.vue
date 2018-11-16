@@ -120,7 +120,8 @@
         headers: { "Content-Type": "application/x-www-form-urlencoded",  'Cache-Control': 'no-cache' },
         body: this.encode({
           'form-name': 'audit',
-          ...this.form
+          ...this.form,
+          'no-cache': 1
         })
       })
       this.step='step3'
