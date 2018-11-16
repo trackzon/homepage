@@ -32,4 +32,4 @@ new Vue({
       document.dispatchEvent(new Event('app.rendered'));
     })
   }
-}).$mount('#app')
+}).$mount('#app', true)

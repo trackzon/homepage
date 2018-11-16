@@ -46,6 +46,37 @@
             <p class="lead">More than 100 sites network ? <a href="#">Contact us</a> to setup a special account.</p>
           </header>
         </div>
+        <div>
+                  <h3>A Closer Look At Savings</h3>
+          <table class="table">
+            <tbody>
+              <tr><td>SEMRush</td><td>Keywords Research</td><td>$99/m</td></tr>
+              <tr><td>Monitor</td><td>Watch Webiste</td><td>$19</td></tr>
+              <tr><td>Amazon Products</td><td>Keywords Research</td><td>$47/m</td></tr>
+              <tr><td>Plugin WP</td><td>Link Checker</td><td>$49</td></tr>
+            </tbody>
+          </table>
+                  <h3>A Closer Look At Gains</h3>
+          <table class="table">
+            <tbody>
+              <tr><td>EPC</td><td>+15%</td></tr>
+              <tr><td>Out Of Sotck</td><td>+7%</td></tr>
+              <tr><td>Broken Links</td><td>+5%</td></tr>
+              <tr><td>Offilne Site</td><td>+1%</td></tr>
+            </tbody>
+          </table>
+
+          <p>
+            We'll spare you the math and just tell you that this totals up to be $1,317... and this is just for one of our Starter sites.
+
+You can pick up a starter site today and you'll immediately be saving yourself at least $319.
+
+This includes EVERYTHING you need from site to training to on-page SEO.
+
+Oh... and this doesn't even factor in time spent creating the site.
+          </p>
+
+        </div>
       </section>
 </template>
 

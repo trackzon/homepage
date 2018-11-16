@@ -29,7 +29,7 @@
 
 
 
-           <cta/>
+           <ctaAudit/>
 </header>
 
   <div class="main-content bg-white">
@@ -37,8 +37,8 @@
 
     <features/>
 
-    <pricing/>
-    <customer/>
+    <!-- <pricing/> -->
+    <!-- <customer/> -->
     <hfooter/>
       <!-- Modal Component -->
   <b-modal id="modal-center" centered title="Register to Private Beta" hide-footer="true" hide-header="true">
@@ -83,7 +83,7 @@
     //   $('.header.fadeout').css('opacity', (1-st/ window.innerHeight ) );
     // });
 // @ is an alias to /src
-import cta from '@/components/Cta.vue'
+import ctaAudit from '@/components/CtaAudit.vue'
 import qa from '@/components/QAForm.vue'
 import customer from '@/components/Customer.vue'
 import features from '@/components/Features.vue'
@@ -104,7 +104,7 @@ export default {
     AOS.init(options)
   },
   components: {
-    qa, cta, customer, features, pricing, numbers, hfooter, StickyCta
+    qa, ctaAudit, customer, features, pricing, numbers, hfooter, StickyCta
   }
 }
 </script>
