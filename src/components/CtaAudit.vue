@@ -18,17 +18,17 @@
     data-netlify-honeypot="bot-field">
               <div id="step1" v-show="step=='step1'">
 
-                 <h1 class="display-4 fw-500 text-white">Get A Free Audit Of Your Amazon Affiliate Website<span>and a receive a list of improvment that can get you up to 15% commission gain</span></h1>
+                 <h1 class="display-4 fw-500 text-white">Get A Free Audit <br/> Of Your Amazon Affiliate Website<span>and gain quick tips to increase your revenue up to 25%</span></h1>
 
 
                 <div class="row">
-                  <div class="col">
+                  <div class="col-12 col-lg-9">
                         <b-form-input id="website" name="site" class="mb-2 mr-sm-2 mb-sm-0" @focus="flag=true"
-  @blur="flag=false" :state="state" type="url" v-model.trim="form.site" placeholder="Enter your amazon affiliat ewebsite link..." ></b-form-input>
+  @blur="flag=false" :state="state" type="url" v-model.trim="form.site" placeholder="Enter your amazon affiliate website link..." ></b-form-input>
                   </div>
 
-                  <div class="col">
-                  <a href="#" v-b-modal.modal-center-disabled class="btn btn-primary btn-icon mb-3 mb-sm-0" @click="step='step2'">
+                  <div class="col-12 col-lg-3">
+                  <a href="#" v-b-modal.modal-center-disabled class="btn btn-primary btn-icon" @click="step='step2'">
                     Get Your Free Audit
 
 
@@ -40,7 +40,7 @@
 <transition name="fade" mode="in-out">
                             <div id="step2" v-show="step=='step2'">
 
-                 <h3 class="display-5 fw-500 text-white"><span>Congratulations ! your website has been submitted and will ne personally reviewd shortly. As soon as it has been reviewed we will sent you a personalized report, please let us know to which email we can send it:</span></h3>
+                 <h3 class="display-5 fw-500 text-white"><span>Congratulations! Your website has been submitted and will be reviewed shortly. We will sent you a personalized report, please let us know to which email we can send it back to you:</span></h3>
 
                   <div class="row">
 
@@ -50,7 +50,7 @@
                   <div class="col">
 
                   <a href="#" v-b-modal.modal-center-disabled class="btn btn-primary btn-icon mb-3 mb-sm-0" @click.prevent="handleSubmit" >
-                    Get Your Personalized Report
+                    Get My Personalized Report
 
 
                   </a>
@@ -64,7 +64,7 @@
 
                             <div id="step3" v-show="step=='step3'">
 
-                 <h3 class="display-5 fw-500 text-white"><span>Thank you, your webiste is now on process for reviewing and while you are waiting for the report, have a look to Actiboost, a new way to increase your commission revenue without more traffic:</span></h3>
+                 <h3 class="display-5 fw-500 text-white"><span>Thank you, your webiste is now on process for reviewing and while you are waiting for the report back, have a look to Actiboost, a new way to increase your commission revenue without more traffic:</span></h3>
              <div class="btn-wrapper text-center">
                   <a href="https://actiboost.com/partner/" v-b-modal.modal-center-disabled class="btn btn-secondary btn-icon mb-3 mb-sm-0">
                       actiboost.com
@@ -146,13 +146,13 @@
     font-weight: 500 !important;
 }
 .display-4 {
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: 200;
     line-height: 1.5;
 }
 
 .display-4 span {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

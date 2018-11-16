@@ -6,7 +6,7 @@
 
 
 
-   <header class="header text-white h-fullscreen overflow-hidden bg-fixed">
+   <header class="header text-white h-fullscreen h-100vh overflow-hidden bg-fixed">
        <!-- <vue-particles
         color="#ffffff"
         :particleOpacity="0.80"
@@ -116,6 +116,7 @@ export default {
 
 .h-100 {
     height: 100% !important;
+
 }
 
 .header>.container, .header>.container-fluid {

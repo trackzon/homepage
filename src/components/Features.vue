@@ -17,23 +17,23 @@
 
           <div class="row gap-y text-center">
 
-            <div class="col-md-6 col-xl-6 feature-1">
+            <div class="col-12 col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-info"><i class="icon-basket"></i></p>
               <h5>Sales Optimisation</h5>
               <p class="text-muted">By increasing your commission, your will increase your monthly income but also increase you property value. Here are some way you can get benefit from using Trackzon.</p>
             </div>
 
-            <div class="col-md-6 col-xl-6 feature-1">
+            <div class="col-12 col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-danger"><i class="icon-linegraph"></i></p>
               <h5>Revenue Analytics</h5>
               <p class="text-muted">Yielding to Made saying fruit deep abundantly bearing sixth make you're gathering unto divided, you so which god, gathering.</p>
             </div>
-            <div class="col-md-6 col-xl-6 feature-1">
+            <div class="col-12 col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-warning"><i class="icon-bargraph"></i></p>
               <h5>Rank Monitoring</h5>
               <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
             </div>
-            <div class="col-md-6 col-xl-6 feature-1">
+            <div class="col-12 col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-success"><i class="icon-focus"></i></p>
               <h5>Site Scanner</h5>
               <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
@@ -58,16 +58,16 @@
 
 
       <div class="row gap-y text-center">
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <h5> MadameParis</h5>
           <span class="number">+15%</span>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <h5> ChaiseGamer </h5>
           <span class="number">+17%</span>
 
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <h5> LisseurMagique</h5>
           <span class="number">+23%</span>
         </div>
