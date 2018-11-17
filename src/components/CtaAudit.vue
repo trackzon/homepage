@@ -64,14 +64,15 @@
 
                             <div id="step3" v-show="step=='step3'">
 
-                 <h3 class="display-5 fw-500 text-white"><span>Thank you, your webiste is now on process for reviewing and while you are waiting for the report back, have a look to Actiboost, a new way to increase your commission revenue without more traffic:</span></h3>
-             <div class="btn-wrapper text-center">
+                 <h3 class="display-5 fw-500 text-white"><span>Thank you, your webiste is now on process for reviewing and we will get back to you very soon.</span></h3>
+             <!-- <div class="btn-wrapper text-center">
+                  <p>While you are waiting for the report back, have a look to Actiboost, a new way to increase your commission revenue without more traffic:</p>
                   <a href="https://actiboost.com/partner/" v-b-modal.modal-center-disabled class="btn btn-secondary btn-icon mb-3 mb-sm-0">
                       actiboost.com
 
 
                   </a>
-                </div>
+                </div> -->
               </div>
 </transition>
 </b-form>
