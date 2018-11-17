@@ -42,13 +42,14 @@
     <hfooter/>
       <!-- Modal Component -->
   <b-modal id="modal-center" centered title="Register to Private Beta" hide-footer="true" hide-header="true">
+    <div class="alert alert-success" v-show="submitted">Thank you! Your seat has been reserved and we will contact you soon for onboarding.</div>
     <p class="my-3">Trackzon is currently in private beta and while we do onboard new user on daily basis, we need to ask for waiting list:</p>
     <form action="">
         <b-form-group
             id="emailGroup"
             label="Enter your main email"
         >
-            <b-form-input id="mail" :state="state" type="email" v-model.trim="email"></b-form-input>
+            <b-form-input id="mail" :state="state" type="email" v-model.trim="form.email"></b-form-input>
 
         </b-form-group>
 
@@ -56,11 +57,11 @@
             id="siteGroup"
             label="How many websites would you like to increase value ?"
         >
-        <b-form-input id="siteNb" :state="state" v-model.trim="siteNb" type="number"></b-form-input>
+        <b-form-input id="siteNb" :state="state" v-model.trim="form.nbsite" type="number"></b-form-input>
 
         </b-form-group>
         <div class="form-group text-center">
-            <button type="submit" class="mx-auto btn btn-warning ">GET A SEAT</button>
+            <button type="submit" class="mx-auto btn btn-warning" @click.prevent="handleSubmit">GET A SEAT</button>
         </div>
     </form>
 
@@ -95,6 +96,15 @@ import AOS from 'aos'
 
 export default {
   name: 'homepage',
+  data () {
+      return {
+          submitted: false,
+          form : {
+              email: "",
+              nbsite: null,
+          }
+      }
+  },
 
   created () {
     var options = {
@@ -105,6 +115,28 @@ export default {
   },
   components: {
     qa, ctaAudit, customer, features, pricing, numbers, hfooter, StickyCta
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join('&');
+    },
+    handleSubmit () {
+      fetch('/', {
+        method: 'POST',
+        headers: { "Content-Type": "application/x-www-form-urlencoded",  'Cache-Control': 'no-cache' },
+        body: this.encode({
+          'form-name': 'private',
+          ...this.form,
+          'no-cache': 1
+        })
+      })
+      this.submitted = true
+
+    }
   }
 }
 </script>

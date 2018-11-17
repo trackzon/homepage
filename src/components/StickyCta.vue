@@ -29,7 +29,12 @@
 
 <script>
   export default {
-    name: "StickyCta"
+    name: "StickyCta",
+    data () {
+        return {
+            email: ""
+        }
+    }
   }
 </script>
 
