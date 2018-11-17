@@ -27,7 +27,7 @@
             </div>
           </div>
 
-          <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+          <!-- <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li class="nav-item">
               <a class="nav-link" href="#features">Features</a>
             </li>
@@ -39,7 +39,7 @@
               <a class="nav-link" href="javascript:netlifyIdentity.open('login')">Login</a>
 
             </li>
-          </ul>
+          </ul> -->
         </div>
         </div>
         </b-navbar>

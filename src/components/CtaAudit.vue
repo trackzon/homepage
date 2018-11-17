@@ -22,12 +22,12 @@
 
 
                 <div class="row">
-                  <div class="col-12 col-lg-9">
-                        <b-form-input id="website" name="site" class="mb-2 mr-sm-2 mb-sm-0" @focus="flag=true"
+                  <div class="col-12 col-md-9">
+                        <b-form-input id="website" name="site" class="mb-2 mr-sm-2 mb-sm-2" @focus="flag=true"
   @blur="flag=false" :state="state" type="url" v-model.trim="form.site" placeholder="Enter your amazon affiliate website link..." ></b-form-input>
                   </div>
 
-                  <div class="col-12 col-lg-3">
+                  <div class="col-12 col-md-3 text-center">
                   <a href="#" v-b-modal.modal-center-disabled class="btn btn-primary btn-icon" @click="step='step2'">
                     Get Your Free Audit
 

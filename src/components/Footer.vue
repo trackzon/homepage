@@ -3,14 +3,16 @@
         <div class="container">
           <div class="row gap-y">
 
-            <div class="col-xl-4 order-md-last">
-              <h6 class="mb-4"><strong>Get Started</strong></h6>
-              <p>Form so, head allowed how found at right, chosen put sad. Copy of field phase offers texts. Great family there first about that.</p>
-              <a class="btn btn-primary btn-warning mr-2" href="#" v-b-modal.modal-center>Start trial</a>
-              <a class="btn btn-secondary" href="#">Contact</a>
+            <div class="col-12 col-md-6 order-md-last">
+              <h6 class="mb-4"><strong>Get Onboard</strong></h6>
+              <p>Trackzon is currently in private beta and while we do onboard new user on daily basis, we need to ask for waiting list.</p>
+              <div class="text-right">
+              <a class="btn btn-primary btn-warning mr-2" href="#" v-b-modal.modal-center>Get Started</a>
+              </div>
+              <!-- <a class="btn btn-secondary" href="#">Contact</a> -->
             </div>
 
-            <div class="col-6 col-md-4 col-xl-2">
+            <!-- <div class="col-6 col-md-4 col-xl-2">
               <h6 class="mb-4"><strong>Product</strong></h6>
               <div class="nav flex-column">
                 <a class="nav-link" href="#">Features</a>
@@ -30,11 +32,11 @@
                 <a class="nav-link" href="#">Policy</a>
                 <a class="nav-link" href="#">Contact</a>
               </div>
-            </div>
+            </div> -->
 
-            <div class="col-xl-4 order-md-first">
+            <div class="col-12 col-md-6 order-md-first">
               <h6 class="mb-4"><strong>We Are Awesome</strong></h6>
-              <p>We’re a team of experienced affliates and developers. We can combine beautiful, modern designs with clean, functional and high-performance code to produce stunning websites.</p>
+              <p>We’re a team of experienced affliates and developers. We can combine powerful tools with beautiful and modern designs with clean, functional and high-performance platform helping your to increase your websites value.</p>
               <small class="opacity-70">© 2018 Trackzon.io. All rights reserved.</small>
             </div>
 

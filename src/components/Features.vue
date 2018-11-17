@@ -20,23 +20,23 @@
             <div class="col-12 col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-info"><i class="icon-basket"></i></p>
               <h5>Sales Optimisation</h5>
-              <p class="text-muted">By increasing your commission, your will increase your monthly income but also increase you property value. Here are some way you can get benefit from using Trackzon.</p>
+              <p class="text-muted">By optimizing your commission, you will increase your monthly income but also increase you property value. Here are some way you can get benefit from using Trackzon.</p>
             </div>
 
             <div class="col-12 col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-danger"><i class="icon-linegraph"></i></p>
               <h5>Revenue Analytics</h5>
-              <p class="text-muted">Yielding to Made saying fruit deep abundantly bearing sixth make you're gathering unto divided, you so which god, gathering.</p>
+              <p class="text-muted">Insight about your best links and better product to remote will leverage more revenue for every single clicks</p>
             </div>
             <div class="col-12 col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-warning"><i class="icon-bargraph"></i></p>
               <h5>Rank Monitoring</h5>
-              <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
+              <p class="text-muted">knowing and keeping track of your best keywords and positioning, the value of your trafic will give you ways to target globaly higher revenue</p>
             </div>
             <div class="col-12 col-md-6 col-xl-6 feature-1">
               <p class="feature-icon lead-8 text-success"><i class="icon-focus"></i></p>
               <h5>Site Scanner</h5>
-              <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
+              <p class="text-muted">A bad link is not only bad for user experience and missed opportunity but it is also a low quality indicator for the serach engines. Keeping an eye on your links will help not losing those clicks and a better position in google</p>
             </div>
 
           </div>
@@ -69,7 +69,7 @@
         </div>
         <div class="col-12 col-md-4">
           <h5> LisseurMagique</h5>
-          <span class="number">+23%</span>
+          <span class="number">+25%</span>
         </div>
       </div>
 
@@ -90,7 +90,7 @@
               <h3>Sales Optimisation</h3>
 
 
-        <p>Increase your comimssion by optimizing your listing. Know which link and products convert the best and target products with better conversion / commission ratio.</p>
+        <p>Increase your Commission by optimizing your listing. Know which link and products convert the best and target products with better conversion / commission ratio.</p>
 
         <!-- <li>AI / ML to improve your ROI - Get Insight about link / traffic</li> -->
 
@@ -115,7 +115,7 @@
 
             <div class="col-md-4 mx-auto">
               <h3>Revenue Analytics</h3>
-              <p>Gain deeper insight about where your income comes from, which link get the more clicks, which site bring you more revenue and follow evaluation of your properties.</p>
+              <p>Gain deeper insight about where your income comes from, which links get the more clicks, which site bring you more revenue and follow evaluation of your properties.</p>
 
             </div>
 
