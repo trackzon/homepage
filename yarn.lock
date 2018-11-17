@@ -9069,6 +9069,11 @@ vue-loader@^15.4.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-multianalytics@^1.9.8:
+  version "1.9.8"
+  resolved "https://registry.yarnpkg.com/vue-multianalytics/-/vue-multianalytics-1.9.8.tgz#c12716d162e1aff6b5d19a4247989b4d11848eba"
+  integrity sha512-RxK/5EBiPUIacLkJiMa/zaAN984SvDptLglaOT31poHxRvMocDpQjlYoPzNn5TMz0zW2ddb49o5lyYjl3xwzRA==
+
 vue-router@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.1.tgz#d9b05ad9c7420ba0f626d6500d693e60092cc1e9"

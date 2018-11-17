@@ -18,6 +18,30 @@ Vue.use(VueAB)
 Vue.config.productionTip = false
 
 Vue.use(VueParticles)
+
+import VueMultianalytics from 'vue-multianalytics'
+
+let gaConfig = {
+  appName: 'Trackzon', // Mandatory
+  appVersion: '0.1', // Mandatory
+  trackingId: 'UA-129379397-1', // Mandatory
+  // debug: true, // Whether or not display console logs debugs (optional)
+}
+
+let facebookConfig = {
+  token: '586232678500711',
+  // debug: true,
+}
+
+
+Vue.use(VueMultianalytics, {
+  modules: {
+    ga: gaConfig,
+    facebook: facebookConfig
+  }
+})
+
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '@/assets/css/argon.css';

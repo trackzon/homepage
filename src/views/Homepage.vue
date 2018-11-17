@@ -41,7 +41,7 @@
     <!-- <customer/> -->
     <hfooter/>
       <!-- Modal Component -->
-  <b-modal id="modal-center" centered title="Register to Private Beta" hide-footer="true" hide-header="true">
+  <b-modal id="modal-center" centered title="Register to Private Beta" hide-footer="True" hide-header="False">
     <div class="alert alert-success" v-show="submitted">Thank you! Your seat has been reserved and we will contact you soon for onboarding.</div>
     <p class="my-3">Trackzon is currently in private beta and while we do onboard new user on daily basis, we need to ask for waiting list:</p>
     <form action="">
@@ -112,6 +112,7 @@ export default {
       duration: 1500,
     }
     AOS.init(options)
+    this.$ma.trackView({viewName: 'homepage'})
   },
   components: {
     qa, ctaAudit, customer, features, pricing, numbers, hfooter, StickyCta

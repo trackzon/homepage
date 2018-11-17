@@ -126,6 +126,7 @@
         })
       })
       this.step='step3'
+      this.$ma.trackEvent({category: 'submit', action: 'submitAuditForm', value: this.form.email})
     }
   }
   }

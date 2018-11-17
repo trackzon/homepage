@@ -22,6 +22,7 @@
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
     "vue-a2b": "^0.2.2",
+    "vue-multianalytics": "^1.9.8",
     "vue-router": "^3.0.1",
     "vuejs-toggle-switch": "^1.1.29"
   },
